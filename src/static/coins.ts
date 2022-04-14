@@ -1,9 +1,9 @@
-import btcLogo from 'assets/btc.png'
-import dogeLogo from 'assets/doge.png'
-import ethLogo from 'assets/eth.png'
-import lunaLogo from 'assets/luna.png'
-import maticLogo from 'assets/matic.png'
-import solLogo from 'assets/sol.png'
+import btcLogo from '/assets/btc.png'
+import dogeLogo from '/assets/doge.png'
+import ethLogo from '/assets/eth.png'
+import lunaLogo from '/assets/luna.png'
+import maticLogo from '/assets/matic.png'
+import solLogo from '/assets/sol.png'
 
 export const coins = [
   {
