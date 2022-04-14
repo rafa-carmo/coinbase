@@ -1,15 +1,8 @@
-import btcLogo from '/assets/btc.png'
-import dogeLogo from '/assets/doge.png'
-import ethLogo from '/assets/eth.png'
-import lunaLogo from '/assets/luna.png'
-import maticLogo from '/assets/matic.png'
-import solLogo from '/assets/sol.png'
-
 export const coins = [
   {
     name: 'Bitcoin',
     sign: 'BTC',
-    logo: btcLogo,
+    logo: '/assets/btc.png',
     balanceUsd: 230.32,
     balanceCoin: 6.35667736,
     priceUsd: 21573897.53,
@@ -19,7 +12,7 @@ export const coins = [
   {
     name: 'Solana',
     sign: 'CRV',
-    logo: solLogo,
+    logo: '/assets/sol.png',
     balanceUsd: 120.2,
     balanceCoin: 6.35667736,
     priceUsd: 5.32,
@@ -29,7 +22,7 @@ export const coins = [
   {
     name: 'Polygon',
     sign: 'MATIC',
-    logo: maticLogo,
+    logo: '/assets/matic.png',
     balanceUsd: 1.2,
     balanceCoin: 3.35664236,
     priceUsd: 5.22,
@@ -39,7 +32,7 @@ export const coins = [
   {
     name: 'Ethereum',
     sign: 'ETH',
-    logo: ethLogo,
+    logo: '/assets/eth.png',
     balanceUsd: 1.2,
     balanceCoin: 3.35664236,
     priceUsd: 5.22,
@@ -49,7 +42,7 @@ export const coins = [
   {
     name: 'Terra',
     sign: 'WLUNA',
-    logo: lunaLogo,
+    logo: '/assets/luna.png',
     balanceUsd: 1.2,
     balanceCoin: 3.35664236,
     priceUsd: 5.22,
@@ -59,7 +52,7 @@ export const coins = [
   {
     name: 'Dogecoin 🌙',
     sign: 'DOGE',
-    logo: dogeLogo,
+    logo: '/assets/doge.png',
     balanceUsd: 1.2,
     balanceCoin: 3.35664236,
     priceUsd: 5.22,

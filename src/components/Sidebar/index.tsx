@@ -1,4 +1,3 @@
-import CoinbaseLogo from 'assets/cb-logo.png'
 import Image from 'next/image'
 import { useState } from 'react'
 import { navItems } from 'static/navItems'
@@ -13,7 +12,12 @@ const Sidebar = ({}: SidebarProps) => {
     <S.Wrapper>
       <S.LogoContainer>
         <S.Logo>
-          <Image src={CoinbaseLogo} alt="Coinbase Dashboard Logo" />
+          <Image
+            width={300}
+            height={80}
+            src="/assets/cb-logo.png"
+            alt="Coinbase Dashboard Logo"
+          />
         </S.Logo>
       </S.LogoContainer>
 

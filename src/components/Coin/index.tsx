@@ -22,7 +22,7 @@ const Coin = ({
       <S.Column flexSize={3}>
         <S.NameColumn>
           <S.CoinIcon>
-            <Image src={logo} alt={name} />
+            <Image width={50} height={50} src={logo} alt={name} />
           </S.CoinIcon>
           <div>
             <S.Primary>{name}</S.Primary>
