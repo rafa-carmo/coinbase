@@ -19,9 +19,7 @@ export type DashboardProps = {
 const sdk = new ThirdwebSDK(
   new ethers.Wallet(
     process.env.NEXT_PUBLIC_METAMASK_KEY!,
-    ethers.getDefaultProvider(
-      'https://rinkeby.infura.io/v3/11c1de60efbf430a95643e97e851764b'
-    )
+    ethers.getDefaultProvider(process.env.NEXT_PUBLIC_RPC_URL!)
   )
 )
 
